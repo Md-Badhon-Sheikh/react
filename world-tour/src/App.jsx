@@ -8,7 +8,7 @@ function App() {
   return (
     <>
      
-      <h1>React World Tour</h1>
+      <h1 className='text-4xl font-semibold'>React World Tour</h1>
       <Countries></Countries>
      
      

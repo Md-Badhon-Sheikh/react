@@ -6,6 +6,7 @@ import Blog from "./pages/Blog";
 import Footer from "./component/Footer";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import useState from "./pages/useState";
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
   return (
     <BrowserRouter>
     <Navbar/>
+    
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Blog" element={<Blog />} />
@@ -21,6 +23,7 @@ function App() {
         
        
       </Routes>
+      <useState/>
       <Footer/>
     </BrowserRouter>
   )
