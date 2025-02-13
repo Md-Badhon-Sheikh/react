@@ -8,7 +8,7 @@ const Home = () => {
             <h1 className="text-3xl md:text-6xl font-bold flex leading-normal tracking-tighter pb-3">
                 <TextChange/>
             </h1>
-            <p className="text-sm md:text-2xl tracking-tight">
+            <p className="text-sm md:text-2xl tracking-tight text-justify">
             Experienced full-stack developer with 6 months of expertise in building pixel-perfect, responsive web applications using modern technologies. Proficient in both frontend and backend development.
             </p>
             <a href="https://github.com/Md-Badhon-Sheikh/cv" target="_blank">
