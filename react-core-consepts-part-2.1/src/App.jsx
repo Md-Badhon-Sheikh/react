@@ -1,7 +1,9 @@
 
+import Albums from './Albums';
 import './App.css'
 import Counter from './Counter';
 import Friends from './Friends';
+import Posts from './Posts';
 import Team from './Team';
 import Users from './Users';
 
@@ -22,7 +24,22 @@ function App() {
     <>
    
       <h1 className='text-2xl font-bold text-red-500'>Vite + React</h1>
+
       <div className='border-2 border-pink-900 rounded-xl py-6'>
+
+      <Albums></Albums>
+      
+      </div>
+
+      <div className='border-2 border-pink-900 rounded-xl py-6'>
+
+      <Posts></Posts>
+
+      </div>
+
+      <div className='border-2 border-pink-900 rounded-xl py-6'>
+
+   
 
       <Friends></Friends>
       </div>
