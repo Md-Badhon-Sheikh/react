@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "brand": "Rolex",
+      "model": "Submariner",
+      "price": 10000,
+      "movement": "Automatic",
+      "water_resistance": "300m",
+      "case_material": "Stainless Steel"
+    },
+    {
+      "id": 2,
+      "brand": "Omega",
+      "model": "Speedmaster",
+      "price": 7000,
+      "movement": "Manual",
+      "water_resistance": "50m",
+      "case_material": "Stainless Steel"
+    },
+    {
+      "id": 3,
+      "brand": "Tag Heuer",
+      "model": "Carrera",
+      "price": 5000,
+      "movement": "Automatic",
+      "water_resistance": "100m",
+      "case_material": "Titanium"
+    },
+    {
+      "id": 4,
+      "brand": "Seiko",
+      "model": "Prospex",
+      "price": 1200,
+      "movement": "Automatic",
+      "water_resistance": "200m",
+      "case_material": "Stainless Steel"
+    },
+    {
+      "id": 5,
+      "brand": "Casio",
+      "model": "G-Shock",
+      "price": 500,
+      "movement": "Quartz",
+      "water_resistance": "200m",
+      "case_material": "Resin"
+    },
+    {
+      "id": 6,
+      "brand": "Citizen",
+      "model": "Eco-Drive",
+      "price": 300,
+      "movement": "Solar",
+      "water_resistance": "100m",
+      "case_material": "Stainless Steel"
+    },
+    {
+      "id": 7,
+      "brand": "Tissot",
+      "model": "Le Locle",
+      "price": 800,
+      "movement": "Automatic",
+      "water_resistance": "30m",
+      "case_material": "Stainless Steel"
+    },
+    {
+      "id": 8,
+      "brand": "Hamilton",
+      "model": "Khaki Field",
+      "price": 600,
+      "movement": "Mechanical",
+      "water_resistance": "100m",
+      "case_material": "Stainless Steel"
+    },
+    {
+      "id": 9,
+      "brand": "Breitling",
+      "model": "Navitimer",
+      "price": 8000,
+      "movement": "Automatic",
+      "water_resistance": "30m",
+      "case_material": "Stainless Steel"
+    },
+    {
+      "id": 10,
+      "brand": "Patek Philippe",
+      "model": "Nautilus",
+      "price": 50000,
+      "movement": "Automatic",
+      "water_resistance": "120m",
+      "case_material": "Rose Gold"
+    }
+  ]
+  
