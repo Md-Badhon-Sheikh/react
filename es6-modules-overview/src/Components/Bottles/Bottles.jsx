@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Bottle from "../Bottle/Bottle";
+import { addToLS } from "../../Utilities/localstorage";
 
 const Bottles = () => {
   const [waterBottles, setWaterBottles] = useState([]);
@@ -14,6 +15,7 @@ const Bottles = () => {
   const handleAddToCart = bottle => {
     const newCart = [...cart, bottle];
     setCart(newCart);
+    addToLS(bottle.id);
 
   }
 
@@ -25,6 +27,7 @@ const Bottles = () => {
       {waterBottles.map(bottle => (
         <Bottle
          bottle={bottle}
+         key={bottle.id}
          handleAddToCart = {handleAddToCart}
          ></Bottle>
       ))}

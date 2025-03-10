@@ -1,21 +1,21 @@
-const getStoredCart = ()=>{
-   const storedCartString = localStorage.getItem('cart')
-   if(storedCartString){
-    return JSON.parse(storedCartString)
-   }
-   return[];
-}
+const getStoredCart = () => {
+    const storedCartString = localStorage.getItem('cart');
+    if (storedCartString) {
+        return JSON.parse(storedCartString);
+    }
+    return [];
+};
 
-const saveCartToLS = cart =>{
-    const cartStringified = JSON.stringify(cart);
-    localStorage.setItem('cart', cartStringified);
-}
+const saveCartToLS = (cart) => {
+    localStorage.setItem('cart', JSON.stringify(cart));
+};
 
-const addToLS = id =>{
+const addToLS = (id) => {
     const cart = getStoredCart();
-    cart.push(id);
-    // save to local Storage
-    saveCartToLS(cart)
-}
+    if (!cart.includes(id)) {
+        cart.push(id);
+        saveCartToLS(cart);
+    }
+};
 
-export {addToLS}
+export { addToLS, getStoredCart };

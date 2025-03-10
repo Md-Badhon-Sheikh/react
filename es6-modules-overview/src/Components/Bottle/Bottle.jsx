@@ -3,7 +3,7 @@ import React from 'react';
 const Bottle = ({ bottle, handleAddToCart }) => {
     const { brand, image, price } = bottle;
     // console.log(bottle);
-    console.log(handleAddToCart);
+    // console.log(handleAddToCart);
     
     return (
         <div className='border-2 p-4 rounded-xl text-center'>
